@@ -7,7 +7,6 @@ const Form = ({showed}) => {
 
   const firstInput = useRef();
   
-
   useEffect(() => {
     // Actualizar el DOM
     if(showed) firstInput.current.focus();
