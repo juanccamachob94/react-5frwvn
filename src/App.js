@@ -6,6 +6,7 @@ const Form = ({showed}) => {
   let [body, setBody] = useState("");
 
   const firstInput = useRef();
+  
 
   useEffect(() => {
     // Actualizar el DOM
